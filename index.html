@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link
       href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&amp;display=swap"
       rel="stylesheet"
@@ -13,6 +15,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Thrills Digital</title>
   </head>
+
   <body>
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
@@ -22,50 +25,25 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
-    <nav class="site-nav">
-      <div class="container">
-        <div class="site-navigation">
-          <a
-            href="index-2.html"
-            class="logo m-0" style="color: black;"
-            >Thrills
-            <a class="logo m-0" style="color: #570077; ">
-              Digital</a
-            ></a
-          >
-          <ul
-            class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end"
-          >
-            <li class="active"><a href="index-2.html">Home</a></li>
-            <!-- <li class="has-children">
-              <a href="#">Dropdown</a>
-              <ul class="dropdown">
-                <li><a href="#">Menu One</a></li>
-                <li class="has-children">
-                  <a href="#">Menu Two</a>
-                  <ul class="dropdown">
-                    <li><a href="#">Sub Menu One</a></li>
-                    <li><a href="#">Sub Menu Two</a></li>
-                    <li><a href="#">Sub Menu Three</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Menu Three</a></li>
-              </ul>
-            </li> -->
-            <li><a href="#section-5">Services</a></li>
-            <li><a href="#box-white">About</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-          <a
-            href="#"
-            class="burger ms-auto float-end site-menu-toggle mt-2 js-menu-toggle d-inline-block d-lg-none light"
-            data-toggle="collapse"
-            data-target="#main-navbar"
-          >
-            <span></span>
-          </a>
-        </div>
-      </div>
+    <nav class="navbar navbar-dark bg-dark" >
+      <a class="navbar-brand" href="index-2.html">
+        Thrills
+        Digital
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+      </div>  
     </nav>
     <div class="hero v-h-full" style="background-color: white">
       <div class="row1">
@@ -88,7 +66,7 @@
             </div>
           </div>
         </div>
-        <div class="col mb-1 mb-lg-0" >
+        <div class="col mb-1 mb-lg-0" style="position: relative;">
           <div class="container">
             <div class="row align-items-center">
               <svg
@@ -97,8 +75,7 @@
                 xmlns="http://www.w3.org/2000/svg"
                 width="780"
                 height="700"
-                viewBox="0 0 902.28899 674.06422"
-                style="display: inlock;"
+                viewBox="0 0 902.28899 674.06422" 
               >
                 <title>metrics</title>
                 <path
@@ -1861,12 +1838,17 @@
       </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/tiny-slider.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/navbar.js"></script>
     <script src="js/custom.js"></script>
+    
     <script>
       function sendEmail() {
         Email.send({

@@ -68,7 +68,7 @@ hr {
 hr:not([size]) {
   height: 1px;
 }
-svg {display: block;}
+svg {display: block;height:480px;width:400px;margin-top:100px;}
 
 h1,
 .h1,
@@ -4023,16 +4023,7 @@ fieldset:disabled .btn {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
+
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
@@ -10574,11 +10565,11 @@ fieldset:disabled .btn {
   top: 0;
   z-index: 9;
   width: 100%;
-}
-.site-nav {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #000;
 }
+
 .site-nav h1,
 .site-nav .h1 {
   margin: 0;
@@ -11175,7 +11166,7 @@ a {
 }
 @media (min-width: 800px) {
   .row1{
-    padding-top: 300px;
+    padding-top: 250px;
   }
 }
 
