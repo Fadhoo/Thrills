@@ -4029,6 +4029,18 @@ fieldset:disabled .btn {
   border-top-right-radius: 0;
 }
 
+.nav-link2 {
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  -webkit-transition: color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
