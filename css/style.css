@@ -293,7 +293,7 @@ th {
 .product {
   width: 260px;
   height: 313px;
-  align-self: center;
+
 }
 label {
   display: inline-block;
@@ -4164,9 +4164,11 @@ fieldset:disabled .btn {
   background-color: #6C63FF;
 }
 .navbar-brand {
+  padding-left: 5px;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
+  margin-left: 1rem;
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
